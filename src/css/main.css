@@ -1,1 +1,48 @@
-/* Your CSS here. */
+body {
+  position: relative;
+  min-height: 100vh;
+
+  font-family: Arial, sans-serif;
+  color: rgba(249, 249, 243, 0.88);
+  background-color: white;
+}
+/* Card */
+.card {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  max-width: 500px;
+  margin: auto;
+  background-color: #1a1a1a;
+  padding: 0px 50px;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  object-fit: cover;
+  padding: 20px;
+}
+
+.contact-info {
+  /* Keep both email + button in row */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contact-info a {
+  background-color: #f0f8ff;
+  text-decoration: none;
+  color: black;
+  border-radius: 6px;
+  padding: 5px 5px;
+}
